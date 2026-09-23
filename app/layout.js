@@ -4,6 +4,10 @@ import SiteChrome from '../components/SiteChrome';
 export const metadata = {
   title: 'PREMIUM Auto Parts — USA-sourced spare parts, Nigeria',
   description: 'Genuine, OEM and reputable aftermarket automobile spare parts imported from the USA into Nigeria.',
+  icons: {
+    icon: '/assets/logo.jpg',
+    apple: '/assets/logo.jpg',
+  },
 };
 
 export default function RootLayout({ children }) {
